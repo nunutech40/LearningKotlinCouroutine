@@ -63,4 +63,10 @@ dependencies {
     // For loading and tinting drawables on older versions of the platform
     implementation("androidx.appcompat:appcompat-resources:1.6.0")
     testImplementation 'org.junit.platform:junit-platform-commons:1.9.2'
+
+    // coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+
+
 }
